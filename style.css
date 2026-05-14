@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.canto-esquerdo {
+    background: linear-gradient(to bottom, #F8522C, #95261A);
+    background: grad;
+    width: 20px;
+    height: 1080px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    background-color: #0D0D0D;
+    color: #FCFAFC;
+    width: 100%;
+    height: 100%;
+}
+
+.conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    min-width: 400px;
+    min-height: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
