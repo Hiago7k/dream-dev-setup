@@ -21,12 +21,12 @@
             <p>2</p>
         </div>
         <div class="conteudo-meio">
-            <h1>Meio tabela</h1>
-            {{msg}}
+            <h1>Dev Setup</h1>
 
             <div class="conteudo">
                 <h6>Lista de Perifericos</h6>
-                <table class="table" ng-model="tabela" >
+                <input type="text" placeholder="Pesquisar" class="input-group">
+                <table class="table table-dark" ng-model="tabela" >
                     <thead>
                         <tr></tr>
                         <th>Perifericos</th>
@@ -38,7 +38,7 @@
                         <tr></tr>
                             <td >{{item.nome}}</td>
                             <td>{{item.preco}}</td>
-                            <td>Teste</td>
+                            <td>{{item.link}}</td>
                         <tr></tr>
 
                     </tbody>
