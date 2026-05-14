@@ -5,9 +5,9 @@
 }
 
 .canto-esquerdo {
-    background: linear-gradient(to bottom, #F8522C, #95261A);
+    background: linear-gradient(to bottom, #E85103, #95261A);
     background: grad;
-    width: 20px;
+    width: 3%;
     height: 1080px;
     display: flex;
     flex-direction: column;
@@ -22,13 +22,11 @@
 }
 
 .conteudo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    background-color: red;
+    padding-top: 22px;
+    background-color: #141414;
     min-width: 400px;
     min-height: 300px;
     margin-left: 10%;
     margin-right: 10%;
+    text-align: center;
 }

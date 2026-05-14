@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="devSetup">
 
 <head>
     <meta charset="UTF-8">
@@ -13,7 +13,7 @@
 
 </head>
 
-<body>
+<body ng-controller="devSetupCtrl">
 
     <div class="main">
         <div class="canto-esquerdo">
@@ -22,9 +22,28 @@
         </div>
         <div class="conteudo-meio">
             <h1>Meio tabela</h1>
+            {{msg}}
 
             <div class="conteudo">
-                <h1>teste</h1>
+                <h6>Lista de Perifericos</h6>
+                <table class="table">
+                    <thead>
+                        <tr></tr>
+                        <th>Perifericos</th>
+                        <th>Preço</th>
+                        <th>Link</th>
+                        <tr></tr>
+                    </thead>
+                    <tbody>
+                        <tr></tr>
+                            <td>Not</td>
+                            <td>Teste</td>
+                            <td>Teste</td>
+                        <tr></tr>
+
+                    </tbody>
+
+                </table>
             </div>
         </div>
 
