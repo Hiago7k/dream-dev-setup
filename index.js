@@ -1,6 +1,7 @@
 angular.module('devSetup', []);
 angular.module('devSetup').controller('devSetupCtrl', function($scope){
 
+
     $scope.items = [
     {nome: "Teclado", preco: "123", link: "https//amazon"},
     {nome: "Mouse", preco: "56", link: "kabum.com.br"},

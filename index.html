@@ -16,38 +16,39 @@
 <body ng-controller="devSetupCtrl">
 
     <div class="main">
-        <div class="canto-esquerdo">
+        <div class="canto-esquerdo ">
             <p>1</p>
             <p>2</p>
         </div>
         <div class="conteudo-meio">
             <h1>Dev Setup</h1>
-
             <div class="conteudo">
-                <h6>Lista de Perifericos</h6>
-                <input type="text" placeholder="Pesquisar" class="input-group">
-                <table class="table table-dark" ng-model="tabela" >
-                    <thead>
-                        <tr></tr>
-                        <th>Perifericos</th>
-                        <th>Preço</th>
-                        <th>Link</th>
-                        <tr></tr>
-                    </thead>
-                    <tbody ng-repeat="item in items">
-                        <tr></tr>
-                            <td >{{item.nome}}</td>
-                            <td>{{item.preco}}</td>
-                            <td>{{item.link}}</td>
-                        <tr></tr>
 
-                    </tbody>
-
+                <thead>
+                    <h6>Lista de Perifericos</h6>
+                    <input type="text" placeholder="Pesquisar" class="input-group"/>
+                    <table class="table">
+                        <tr>
+                            <th></th>
+                            <th>Perifericos</th>
+                            <th>Preço</th>
+                            <th>Link</th>
+                        </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="item in items" ng-class="{selecionado: item.selecionado}">
+                        <td><input type="checkbox" ng-model="item.selecionado" /></td>
+                        <td >{{item.nome}}</td>
+                        <td>{{item.preco}}</td>
+                        <td>{{item.link}}</td>
+                    </tr>
+                </tbody>
                 </table>
             </div>
         </div>
 
     </div>
+
 </body>
 
 </html>
