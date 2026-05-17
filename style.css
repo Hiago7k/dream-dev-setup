@@ -114,6 +114,21 @@
     height: 30px;
 }
 
+.input-search {
+    width: 240px;
+    margin-left: 16px;
+    border: solid 1px #FFFFFF14;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.input-search input {
+    padding: 6px;
+    background-color: #131B26;
+    border: none;
+    border-radius: 8px;
+}
+
 .content-midlle-container {
     display: flex;
     align-items: center;
@@ -121,7 +136,7 @@
 }
 
 .selecionado td {
-    background-color: teal !important;
+    background-color: #182463 ;
 }
 
 table {
