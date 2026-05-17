@@ -88,7 +88,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
-    border-radius: 6px;
+    border-radius: 12px;
     border: solid 1px #FFFFFF14;
 }
 
@@ -126,7 +126,7 @@
 
 table {
     margin: 16px;
-    border-collapse: collapse; 
+    border-collapse: collapse;
     border-radius: 12px;
 }
 
@@ -139,11 +139,65 @@ table tr {
 
 td,
 th {
-    padding: 4px;
+    padding: 16px;
 }
 
+.lista-depedidos-top {
+    width: 470px;
+    height: 100px;
+    display: flex;
+    margin-left: 16px;
+    flex-direction: row;
+    text-align: left;
+    align-items: center;
+    justify-content: center;
+}
 
+.lista-depedidos-low h6,
+p {
+    margin: 0;
+}
 
+.lista-img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 24px;
+    backdrop-filter: blur(10px);
+    background: rgba(98, 0, 255, 0.12);
+}
+
+.lista-img img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.lista-depedidos-low {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin-left: 8px;
+}
+
+.input-conteudo {
+    width: 470px;
+    margin-left: 16px;
+    border: solid 1px #FFFFFF14;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.input-conteudo input {
+    padding: 6px;
+    background-color: #131B26;
+    border: none;
+    border-radius: 8px;
+}
 
 /* To do
 // 1 Ajustar UI
