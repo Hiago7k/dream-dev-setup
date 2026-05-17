@@ -81,7 +81,6 @@
 }
 
 .conteudo {
-    padding-top: 22px;
     background-color: #0E1525;
     width: 80vw;
     height: 80vh;
@@ -90,6 +89,7 @@
     flex-direction: column;
     border-radius: 12px;
     border: solid 1px #FFFFFF14;
+    margin-top: 16px;
 }
 
 .conteudo-meio {
@@ -99,6 +99,7 @@
     flex-direction: column;
     margin: auto;
     border-radius: 12px;
+    margin-top: 0;
 }
 
 .content-input {
@@ -107,6 +108,10 @@
     justify-content: center;
     height: 50px;
     gap: 20px;
+}
+
+.content-midlle-container {
+    height: 80px;
 }
 
 .input-theme {
@@ -133,10 +138,16 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 26px;
+    padding-bottom: 12px;
+}
+.content-top h1, p {
+   margin: 0;
+   padding: 0;
 }
 
 .selecionado td {
-    background-color: #182463 ;
+    background-color: #182463;
 }
 
 table {
