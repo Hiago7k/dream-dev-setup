@@ -52,7 +52,8 @@
                     <p>setup setup setups</p>
                 </div>
                 <div class="content-input">
-                    <input type="checkbox" />
+                    <input type="text" placeholder="Buscar periferico" class="input-group" />
+                    <input type="checkbox" class="input-theme" />
                 </div>
 
             </div>
@@ -60,20 +61,20 @@
                 <thead>
                     <h6>Lista de Perifericos</h6>
                     <input type="text" placeholder="Pesquisar" class="input-group" />
-                    <table class="table">
+                    <table>
                         <tr>
-                            <th></th>
                             <th>Perifericos</th>
                             <th>Preço</th>
                             <th>Link</th>
+                            <th>Ações</th>
                         </tr>
                 </thead>
                 <tbody>
                     <tr ng-repeat="item in items" ng-class="{selecionado: item.selecionado}">
-                        <td><input type="checkbox" ng-model="item.selecionado" /></td>
                         <td>{{item.nome}}</td>
                         <td>{{item.preco}}</td>
                         <td>{{item.link}}</td>
+                        <td><input type="checkbox" ng-model="item.selecionado" /></td>
                     </tr>
                 </tbody>
                 </table>
