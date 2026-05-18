@@ -3,7 +3,6 @@
     padding: 0;
     list-style: none;
     font-family: "Inter", sans-serif;
-    color: #E7E7EA;
 }
 
 .canto-esquerdo {
@@ -223,6 +222,27 @@ p {
     background-color: #131B26;
     border: none;
     border-radius: 8px;
+}
+
+.white-theme{
+    background-color: white !important;
+    color: black;
+}
+
+.btn-colors-mode{
+    background-color: red;
+    width: 150px;
+    height: 50px;
+}
+
+.teste{
+    width: 150px;
+    height: 50px;
+}
+
+.darkmode{
+    background-color: white !important;
+    color: #050A15;
 }
 
 /* To do

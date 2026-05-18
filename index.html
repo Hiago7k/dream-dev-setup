@@ -23,7 +23,7 @@
 
 <body ng-controller="devSetupCtrl">
 
-    <div class="main">
+    <div class="main" ng-class="{darkmode: campo.darkmode}">
         <div class="canto-esquerdo">
 
             <div class="slide-bar-top">
@@ -55,7 +55,9 @@
                     <div class="input-search">
                     <input type="text" placeholder="Buscar periferico" class="input-group" />
                     </div>
-                    <input type="checkbox" class="input-theme" />
+                    <div class="btn-colors-mode">
+                    <input  ng-model="campo.darkmode" class="teste" name="campo" value="" type="checkbox" "/>
+                    </div>
                 </div>
 
             </div>
